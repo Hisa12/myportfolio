@@ -7,7 +7,7 @@ function EmpButtons() {
     <>
       <Space wrap>
         <Tooltip
-          title="Seeking a part time position for Software Development"
+          title="I'm seeking a grad position for Software Development"
           trigger="click"
           placement="bottomLeft"
           defaultOpen
