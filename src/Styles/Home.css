@@ -1,0 +1,55 @@
+.homePage {
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.introImg {
+  width: 100%;
+  max-width: 600px;
+}
+
+.firstComp {
+  padding-top: 40px;
+  height: 68vh;
+}
+
+.introContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondComp {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(78, 13, 104, 255);
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-progress-status-success .ant-progress-texr {
+  color: #c4c4c4;
+  background-color: wheat;
+}
+
+.thirdComp {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.careerExp {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .introContainer.img {
+    display: none;
+  }
+  .secondComp {
+    height: 100vh;
+  }
+}

@@ -1,0 +1,49 @@
+.navComp {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.horizontalMenu {
+  float: right;
+}
+
+.ant-menu-item:hover,
+.ant-menu .ant-menu-item-selected,
+.ant-menu-horizontal .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  color: rgb(58, 213, 179) !important;
+  border-bottom: none !important ;
+}
+
+.ant-menu .ant-menu-item-selected {
+  background-color: rgb(230, 255, 249);
+}
+
+.logo {
+  width: 100px;
+  float: left;
+}
+
+.sns {
+  font-size: 23px;
+  color: black;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+@media (max-width: 700px) {
+  .horizontalMenu {
+    display: none;
+  }
+  .snsComp {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .hamburgerIcon {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+  color: gray;
+  display: flex;
+
+  justify-content: center;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
