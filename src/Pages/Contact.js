@@ -46,7 +46,7 @@ function Contact() {
                   textAlign: "center",
                 }}
               >
-                <EnvironmentOutlined style={{ fontSize: 18 }} /> Brisbane, QLD
+                <EnvironmentOutlined style={{ fontSize: 18 }} /> Australia
               </Title>
             </Col>
 
