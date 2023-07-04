@@ -12,7 +12,7 @@ function SNSIcons() {
       >
         <LinkedinFilled className="sns" />
       </a>
-      <a href="https://github.com/Hisa12/portfolio">
+      <a href="https://github.com/Hisa12/myportfolio.git">
         <GithubOutlined className="sns" />
       </a>
     </Space>
