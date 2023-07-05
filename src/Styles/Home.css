@@ -46,6 +46,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 900px) {
+  .secondComp {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .introContainer.img {
     display: none;
