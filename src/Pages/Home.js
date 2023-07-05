@@ -14,7 +14,7 @@ function Home() {
     <div className="homePage">
       <div className="firstComp">
         <Row justify="space-evenly">
-          <Col className="introContainer intro" xs={23} sm={20} md={11} xl={10}>
+          <Col className="introContainer intro" xs={22} sm={20} md={11} xl={10}>
             <IntroText />
           </Col>
 

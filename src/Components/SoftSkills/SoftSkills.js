@@ -1,5 +1,6 @@
 import React from "react";
 import { Progress, Space, Row, Col } from "antd";
+import "./SoftSkills.css";
 
 function SoftSkills() {
   const softSkill = [
@@ -15,25 +16,27 @@ function SoftSkills() {
             <div key={item.name}>
               <Row>
                 <Col>
-                  <Progress
-                    size={118}
-                    strokeColor={"#3bcbab"}
-                    type="circle"
-                    strokeWidth={10}
-                    percent={item.percent}
-                    style={{ padding: 8 }}
-                    format={() => (
-                      <div style={{ color: "white" }}>{item.percent}%</div>
-                    )}
-                  />
-                  <div
-                    style={{
-                      textAlign: "center",
-                      fontSize: "18px",
-                      color: "white",
-                    }}
-                  >
-                    {item.name}
+                  <div className="processComp">
+                    <Progress
+                      size={118}
+                      strokeColor={"#3bcbab"}
+                      type="circle"
+                      strokeWidth={10}
+                      percent={item.percent}
+                      style={{ padding: 8 }}
+                      format={() => (
+                        <div style={{ color: "white" }}>{item.percent}%</div>
+                      )}
+                    />
+                    <div
+                      style={{
+                        textAlign: "center",
+                        fontSize: "18px",
+                        color: "white",
+                      }}
+                    >
+                      {item.name}
+                    </div>
                   </div>
                 </Col>
               </Row>
