@@ -62,9 +62,12 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .firstComp {
     height: 50vh;
+  }
+  .secondComp {
+    height: 90vh;
   }
   .thirdComp {
     padding-top: 40px;

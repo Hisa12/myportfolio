@@ -61,7 +61,7 @@ function Home() {
             <Col className="careerExp edu" xs={23} sm={20} md={10} xl={8}>
               <TimeLineComp />
             </Col>
-            <Col className="careerExp prof" xs={23} sm={20} md={10} xl={8}>
+            <Col className="careerExp prof" xs={22} sm={20} md={10} xl={8}>
               <SkillList />
             </Col>
           </Row>
