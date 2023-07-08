@@ -8,6 +8,7 @@ import {
 import Header from "./Components/Header/Header";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
+import PageNotFound from "./Pages/PageNotFound";
 import TrackVisibility from "react-on-screen";
 
 const router = createBrowserRouter(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Header />}>
       <Route index element={<Home />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="*" element={<PageNotFound />} />
     </Route>
   )
 );

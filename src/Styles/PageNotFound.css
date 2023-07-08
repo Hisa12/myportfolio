@@ -1,0 +1,11 @@
+.error_img {
+  width: 100%;
+  max-width: 700px;
+}
+
+.errorComp {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
