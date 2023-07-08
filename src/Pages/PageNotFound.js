@@ -3,7 +3,7 @@ import "../Styles/PageNotFound.css";
 import error_img from "../assets/error_img.png";
 import { Row, Col, Typography } from "antd";
 
-const { Title, Text } = Typography;
+const { Title } = Typography;
 function Contact() {
   return (
     <div className="errorComp">
