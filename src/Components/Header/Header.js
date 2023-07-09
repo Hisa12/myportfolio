@@ -70,7 +70,7 @@ function NavigationBar({ isInline = false }) {
         style={{
           border: "none",
           fontSize: 15,
-          width: 200,
+          width: 250,
         }}
         onClick={onClick}
         selectedKeys={[current]}
@@ -78,6 +78,9 @@ function NavigationBar({ isInline = false }) {
       >
         <Menu.Item key="h">
           <Link to="/">Home</Link>
+        </Menu.Item>
+        <Menu.Item key="p">
+          <Link to="/project">Project</Link>
         </Menu.Item>
 
         <Menu.Item key="c">
