@@ -1,0 +1,30 @@
+.projectComp {
+  padding: 30px;
+  height: 80vh;
+
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .projectComp {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 870px) {
+  .projectComp {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .projectComp {
+    height: 198vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .projectComp {
+    height: 130vh;
+  }
+}
