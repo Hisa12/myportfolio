@@ -27,7 +27,7 @@ const TimeLineComp = () => (
                 Plan to Graduate
               </Text>
               <br />
-              <Text style={{ fontSize: "20px" }}>-Mar.2024</Text>
+              <Text style={{ fontSize: "20px" }}>-Dec.2023</Text>
             </>
           ),
         },
